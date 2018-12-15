@@ -1,0 +1,119 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+//      NAVBAR CSS      //
+.navbar{
+    background: transparent!important;
+    .navbar-brand{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .nav-link{
+        color: #fff!important;
+    }
+}
+
+//      HEADER CSS      //
+.header{
+    background: linear-gradient(#c1d7306b),url("../images/fondo-header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    .contenido-header{
+        .texto-header,
+        .rana-header{
+            width: 50%;
+        }
+        .texto-header{
+            color: #fff;
+            h1{
+                text-shadow: 5px 1px 2px rgba(70, 70, 70, 5);
+            }
+            .btn-header{
+                background: #fff;
+                color: #000;
+                border-radius: 50px;
+                width: 200px;
+            }
+        }
+    }
+}
+
+//      NOSOTROS CSS        //
+.nosotros{
+    .title-nosotros{
+        font-weight: 300;
+        color: #c2d730;
+        position: relative;
+    }
+    .title-nosotros:after{
+        content: "";
+        position: absolute;
+        width: 15%;
+        height: 3px;
+        background: #fde500;
+        bottom: -25px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
+
+//      SERVICIOS CSS       //
+.servicios{
+    background: #c2d730;
+    .title-servicios{
+        font-weight: 300;
+        color: #000;
+        position: relative;
+    }
+    .title-servicios:after{
+        content: "";
+        position: absolute;
+        width: 15%;
+        height: 3px;
+        background: #fde500;
+        bottom: -25px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+}
+
+//      RANAS CSS        //
+.ranas{
+    .title-ranas{
+        font-weight: 300;
+        color: #c2d730;
+        position: relative;
+    }
+    .title-ranas:after{
+        content: "";
+        position: absolute;
+        width: 15%;
+        height: 3px;
+        background: #fde500;
+        bottom: -25px;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .tarjeta-rana.hipster{
+        box-shadow: 0 20px 45px -10px rgba(0,0,0,.15);
+    }
+    .tarjeta-rana{
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 30px;
+        border: 1px solid #ebebeb;
+        h2{
+            font-size: 14px!important;
+            letter-spacing: .2em;
+            color: #000;
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+/* FUENTES */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700");
+body {
+  font-family: 'Poppins', sans-serif; }
+
+.navbar {
+  background: transparent !important; }
+  .navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 700; }
+  .navbar .nav-link {
+    color: #fff !important; }
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#c1d7306b)), url("../images/fondo-header.jpg");
+  background: linear-gradient(#c1d7306b), url("../images/fondo-header.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; }
+  .header .contenido-header .texto-header,
+  .header .contenido-header .rana-header {
+    width: 50%; }
+  .header .contenido-header .texto-header {
+    color: #fff; }
+    .header .contenido-header .texto-header h1 {
+      text-shadow: 5px 1px 2px #464646; }
+    .header .contenido-header .texto-header .btn-header {
+      background: #fff;
+      color: #000;
+      border-radius: 50px;
+      width: 200px; }
+
+.nosotros .title-nosotros {
+  font-weight: 300;
+  color: #c2d730;
+  position: relative; }
+.nosotros .title-nosotros:after {
+  content: "";
+  position: absolute;
+  width: 15%;
+  height: 3px;
+  background: #fde500;
+  bottom: -25px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%; }
+
+.servicios {
+  background: #c2d730; }
+  .servicios .title-servicios {
+    font-weight: 300;
+    color: #000;
+    position: relative; }
+  .servicios .title-servicios:after {
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background: #fde500;
+    bottom: -25px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%; }
+
+.ranas .title-ranas {
+  font-weight: 300;
+  color: #c2d730;
+  position: relative; }
+.ranas .title-ranas:after {
+  content: "";
+  position: absolute;
+  width: 15%;
+  height: 3px;
+  background: #fde500;
+  bottom: -25px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%; }
+.ranas .tarjeta-rana.hipster {
+  -webkit-box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.15); }
+.ranas .tarjeta-rana {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #ebebeb; }
+  .ranas .tarjeta-rana h2 {
+    font-size: 14px !important;
+    letter-spacing: .2em;
+    color: #000;
+    margin-bottom: 0; }
