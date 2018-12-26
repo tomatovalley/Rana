@@ -91,3 +91,32 @@ body {
     letter-spacing: .2em;
     color: #000;
     margin-bottom: 0; }
+
+.testimonios {
+  background: linear-gradient(50deg, transparent, transparent 50%, #c2d730 50%, #c2d730); }
+  .testimonios .title-testimonios {
+    font-weight: 300;
+    color: #000;
+    position: relative; }
+  .testimonios .title-testimonios:after {
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background: #fde500;
+    bottom: -25px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%; }
+  .testimonios .item .testimonio .fas {
+    color: #fde500; }
+  .testimonios .item .testimonio h2 {
+    font-size: 18px; }
+  .testimonios .slick-dots li,
+  .testimonios .slick-dots li button,
+  .testimonios .slick-dots li button::before {
+    width: 30px !important;
+    height: 1px; }
+  .testimonios .slick-dots li button::before {
+    content: '';
+    background: #000; }
