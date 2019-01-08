@@ -6,14 +6,28 @@ body{
 
 
 //      NAVBAR CSS      //
+.scrolled{
+    background: #fff!important;
+    box-shadow: 0px 1px 6px 2px rgba(0,0,0,0.75);
+}
+.black{
+    color: #000!important;
+}
 .navbar{
-    background: transparent!important;
+    background: transparent;
+    transition: all .3s ease-in-out;
     .navbar-brand{
         font-size: 25px;
+        color: #fff;
         font-weight: 700;
     }
     .nav-link{
-        color: #fff!important;
+        color: #fff;
+    }
+}
+.navbar.scrolled{
+    .navbar-brand{
+        color: rgb(48, 48, 48)!important;
     }
 }
 
@@ -115,12 +129,58 @@ body{
             color: #000;
             margin-bottom: 0;
         }
+        .line{
+            height: 1px;
+            width: 50%;
+            background: #c2d730;
+        }
+        .caracteristicas-rana{
+            .tit-cara:after{
+                content: "";
+                left: 119px;
+                bottom: 7px;
+                position: absolute;
+                width: 50px;
+                height: 1px;
+                background: #fde500;
+            }
+            .fas{
+                color: #c2d730;
+            }
+            .btn{
+                background: #c2d730;
+                color:#fff;
+                border-radius: 0;
+            }
+        }
+    }
+    .modal-dialog{
+        max-width: 600px!important;
+        .modal-content{
+            border-radius: 0;
+            border-color: transparent!important;
+            .modal-header{
+                background: #c2d730;
+                color: #fff;
+                border-radius: 0;
+                border-color: transparent;  
+            }
+            .modal-footer{
+                justify-content: center;
+                .btn{
+                    background: #c2d730;
+                    color: #fff;
+                    border-radius: 0;
+                    border-color: transparent!important;
+                }
+            }
+        }
     }
 }
 
 //          TESTIMONIOS         //
 .testimonios{
-    background:linear-gradient(50deg, transparent, transparent 50%, #c2d730 50%, #c2d730);
+    background: linear-gradient(50deg, transparent, transparent 65%, #c2d730 50%, #c2d730);
     .title-testimonios{
         font-weight: 300;
         color: #000;
@@ -155,5 +215,69 @@ body{
     .slick-dots li button::before{
         content: '';
         background: #000;
+    }
+}
+
+//      FOOTER      //
+.footer{
+    .scroll-up{
+        border-radius: 5px;
+        background: #c2d730;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 48px;
+        .fas{
+            color: #fff;
+        }
+    }
+     background: #272727;
+     position: relative;
+     .redes-footer{
+        width: 200px;
+        max-width: 200px;
+        justify-content: space-around;
+        .redes{
+            width: 50px;
+            height: 50px;
+            background: #c2d730;
+            padding: 15px;
+            border-radius: 50px;
+            .fab{
+                color: #000;
+            }
+        }
+    }
+    .lista{
+        .list-inline-item a{
+            color: #fff!important;
+            transition: all .3s ease-in-out;
+        }
+        .list-inline-item a:hover{
+            text-decoration: none;
+            color: #fde500!important;
+        }
+    }
+    .contacto{
+        h3{
+            color: #fff;
+            font-weight: 300;
+        }
+        a{
+            color: #c2d730!important;
+        }
+    }
+    .derechos{
+        background: #c2d730;
+        h2{
+            font-size: 14px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            color: #fff;
+        }
+        p{
+            font-weight: 300;
+            font-size: 10px;
+        }
     }
 }

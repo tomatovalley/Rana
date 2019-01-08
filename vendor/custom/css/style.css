@@ -3,13 +3,27 @@
 body {
   font-family: 'Poppins', sans-serif; }
 
+.scrolled {
+  background: #fff !important;
+  -webkit-box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 1px 6px 2px rgba(0, 0, 0, 0.75); }
+
+.black {
+  color: #000 !important; }
+
 .navbar {
-  background: transparent !important; }
+  background: transparent;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
   .navbar .navbar-brand {
     font-size: 25px;
+    color: #fff;
     font-weight: 700; }
   .navbar .nav-link {
-    color: #fff !important; }
+    color: #fff; }
+
+.navbar.scrolled .navbar-brand {
+  color: #303030 !important; }
 
 .header {
   background: -webkit-gradient(linear, left top, left bottom, from(#c1d7306b)), url("../images/fondo-header.jpg");
@@ -91,9 +105,46 @@ body {
     letter-spacing: .2em;
     color: #000;
     margin-bottom: 0; }
+  .ranas .tarjeta-rana .line {
+    height: 1px;
+    width: 50%;
+    background: #c2d730; }
+  .ranas .tarjeta-rana .caracteristicas-rana .tit-cara:after {
+    content: "";
+    left: 119px;
+    bottom: 7px;
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: #fde500; }
+  .ranas .tarjeta-rana .caracteristicas-rana .fas {
+    color: #c2d730; }
+  .ranas .tarjeta-rana .caracteristicas-rana .btn {
+    background: #c2d730;
+    color: #fff;
+    border-radius: 0; }
+.ranas .modal-dialog {
+  max-width: 600px !important; }
+  .ranas .modal-dialog .modal-content {
+    border-radius: 0;
+    border-color: transparent !important; }
+    .ranas .modal-dialog .modal-content .modal-header {
+      background: #c2d730;
+      color: #fff;
+      border-radius: 0;
+      border-color: transparent; }
+    .ranas .modal-dialog .modal-content .modal-footer {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      .ranas .modal-dialog .modal-content .modal-footer .btn {
+        background: #c2d730;
+        color: #fff;
+        border-radius: 0;
+        border-color: transparent !important; }
 
 .testimonios {
-  background: linear-gradient(50deg, transparent, transparent 50%, #c2d730 50%, #c2d730); }
+  background: linear-gradient(50deg, transparent, transparent 65%, #c2d730 50%, #c2d730); }
   .testimonios .title-testimonios {
     font-weight: 300;
     color: #000;
@@ -120,3 +171,51 @@ body {
   .testimonios .slick-dots li button::before {
     content: '';
     background: #000; }
+
+.footer {
+  background: #272727;
+  position: relative; }
+  .footer .scroll-up {
+    border-radius: 5px;
+    background: #c2d730;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 48px; }
+    .footer .scroll-up .fas {
+      color: #fff; }
+  .footer .redes-footer {
+    width: 200px;
+    max-width: 200px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    .footer .redes-footer .redes {
+      width: 50px;
+      height: 50px;
+      background: #c2d730;
+      padding: 15px;
+      border-radius: 50px; }
+      .footer .redes-footer .redes .fab {
+        color: #000; }
+  .footer .lista .list-inline-item a {
+    color: #fff !important;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .footer .lista .list-inline-item a:hover {
+    text-decoration: none;
+    color: #fde500 !important; }
+  .footer .contacto h3 {
+    color: #fff;
+    font-weight: 300; }
+  .footer .contacto a {
+    color: #c2d730 !important; }
+  .footer .derechos {
+    background: #c2d730; }
+    .footer .derechos h2 {
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      color: #fff; }
+    .footer .derechos p {
+      font-weight: 300;
+      font-size: 10px; }
