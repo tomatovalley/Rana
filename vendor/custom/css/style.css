@@ -301,3 +301,58 @@ body {
       .form-login .gen .inv a {
         font-weight: 600;
         color: #fff; }
+
+.form-registro {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 39, 39, 0.3))), url("../images/posible-uso.jpg");
+  background: linear-gradient(rgba(39, 39, 39, 0.3)), url("../images/posible-uso.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .form-registro .gen {
+    height: 85vh; }
+    .form-registro .gen form {
+      border-radius: 15px;
+      background: #c1d730dc;
+      max-width: 350px;
+      padding: 15px;
+      -webkit-box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75);
+              box-shadow: 10px 10px 5px -3px rgba(0, 0, 0, 0.75); }
+      .form-registro .gen form h2 {
+        font-size: 26px;
+        font-weight: 300; }
+      .form-registro .gen form .form-group {
+        border-radius: 5px;
+        margin-bottom: 10px; }
+        .form-registro .gen form .form-group input {
+          border: none; }
+        .form-registro .gen form .form-group .form-control:focus {
+          -webkit-box-shadow: none !important;
+                  box-shadow: none !important; }
+        .form-registro .gen form .form-group .form-control {
+          -webkit-box-shadow: none;
+                  box-shadow: none; }
+        .form-registro .gen form .form-group .input-group-prepend {
+          border: none; }
+          .form-registro .gen form .form-group .input-group-prepend .input-group-text {
+            background: transparent;
+            border: none; }
+      .form-registro .gen form button {
+        border-radius: 50px;
+        background: #fff;
+        border-color: transparent;
+        color: #000; }
+      .form-registro .gen form a {
+        font-size: 14px;
+        color: #fff;
+        width: 175px;
+        font-style: italic; }
+    .form-registro .gen .separador {
+      width: 350px;
+      height: 1px;
+      background: #fff; }
+    .form-registro .gen .inv {
+      font-weight: 300;
+      font-size: 14px;
+      color: #fff; }
+      .form-registro .gen .inv a {
+        font-weight: 600;
+        color: #fff; }
